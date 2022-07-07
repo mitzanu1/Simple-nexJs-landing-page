@@ -166,6 +166,8 @@
     }
     .headAddress {
         margin-top: 5px;
+        flex-wrap: wrap;
+        justify-content: center;
     }
     .acteNecesare h1,
     .acteNecesare h4 {
