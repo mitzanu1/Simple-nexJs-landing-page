@@ -41,7 +41,7 @@ export default function Home() {
         </div>
         <div className={styles.header}>
           <div className={styles.logo}>
-            <Image src={'/logo.png'} width='250px' height='50px'/>
+            <Image src={'/logo.png'} width='300px' height='50px'/>
           </div>
           <nav className={styles.nav}>
             <ul>
