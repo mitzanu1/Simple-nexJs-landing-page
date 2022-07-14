@@ -116,7 +116,8 @@ export default function Home() {
             <h1>Contact</h1>
             <h4>Ne puteti contacta la:</h4>
             <ul>
-              <li>Telefon: 0760373197</li>
+              <a href='tel:0760373197'><li>Telefon: 0760373197</li></a>
+              <li>Email: iageritp.ro@gmail.com</li>
               <li>Adresa: Comuna Vama Buzaului sat Acris, nr.7A, Brasov 507246</li>
             </ul>
             <div className={styles.gmap}>
