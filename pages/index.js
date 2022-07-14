@@ -134,7 +134,7 @@ export default function Home() {
         <footer className={styles.footer}>
           <h3>Powered by Coden Techie</h3>
           <div className={styles.socialM}>
-           <a href='www.facebook.com'> <div className={styles.socialIco}><FontAwesomeIcon icon={faFacebook} /></div></a>
+           <a href='https://www.facebook.com/IAGER-ITPro-100375959409184'  target="_blanck"> <div className={styles.socialIco}><FontAwesomeIcon icon={faFacebook} /></div></a>
             <div className={styles.socialIco}><FontAwesomeIcon icon={faInstagram} /></div>     
             <div className={styles.socialIco}><FontAwesomeIcon icon={faWhatsapp} /></div>     
           </div>
