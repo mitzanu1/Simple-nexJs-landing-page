@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faClockFour, faLocationDot, faCircleUp } from '@fortawesome/free-solid-svg-icons'
-import { faFacebook, faInstagram, faTwitter } from '@fortawesome/free-brands-svg-icons'
+import { faFacebook, faInstagram, faTwitter, faWhatsapp } from '@fortawesome/free-brands-svg-icons'
 import styles from '../styles/main.module.css'
 export default function Home() {
 
@@ -23,13 +23,17 @@ export default function Home() {
           <div className={styles.headContact}>
             <div className={styles.headOpenHours}>
               <div className={styles.icoClock}><FontAwesomeIcon icon={faClockFour} /></div>
+               <div style={{display:'block', marginLeft:'10px'}}>
+                <div>Luni - Miercuri - Vineri: </div>
+                <div style={{textAlign:'center'}}>11.00 - 19.00 </div>
+               </div>
               <div style={{display:'block', marginLeft:'10px'}}>
-                <div>Luni - Vineri: </div>
-                <div>8.00 - 16.00 </div>
+               <div>Marti - Joi : </div>
+               <div>8.00 - 16.00</div>
               </div>
-              <div style={{display:'block', marginLeft:'10px'}}>
-              <div>Sambata : </div>
-              <div>8.00 - 13.00</div>
+              <div style={{display:'block', marginLeft:'15px'}}>
+               <div>Sambata : </div>
+               <div>8.00 - 13.00</div>
               </div>
             </div>
             <div className={styles.headAddress}>
@@ -66,24 +70,32 @@ export default function Home() {
             <th>Tarif ITP</th>
            </tr>
            <tr>
-             <td>Autoturism</td>
-             <td>120 RON</td>
+             <td>Autoturism taxi, scoala sau pentru inchiriere</td>
+             <td>80 RON</td>
            </tr>
            <tr>
-             <td>Microbuz, autorulota, utilitare, mixte, specializate, speciale ca masa totala maxim autorizata pana la 3.5 T</td>
-             <td>130 RON</td>
-           </tr>
-           <tr>
-             <td>Remorci fara sistem de franare</td>
+             <td>Autoturisme motorina sau benzina</td>
              <td>100 RON</td>
            </tr>
            <tr>
-             <td>Motocicleta</td>
-             <td>110 RON</td>
+             <td>Microbuz, autorulota, utilitare, mixte, specializate, speciale ca masa totala maxim autorizata pana la 3.5 T</td>
+             <td>120 RON</td>
+           </tr>
+           <tr>
+             <td>Autoturisme 4x4</td>
+             <td>140 RON</td>
+           </tr>
+           <tr>
+             <td>Remorci si rulota fara sistem de franare</td>
+             <td>80 RON</td>
+           </tr>
+           <tr>
+             <td>Remorca, semiremorca si rulota cu sistem de franare avand masa maxima autorizata pana  la 3.5t </td>
+             <td>90 RON</td>
            </tr>
            </tbody>
          </table>
-         <p>In cazul in care autovehiculul este respins la prima verificare se percep taxe de reverificare.</p>
+         <p>In cazul in care autovehiculul este respins la prima verificare se percep taxe de reverificare pentru motive de siguranta 20 RON si poluare 10 RON.</p>
          </div> 
         <div id='acteNecesare' style={{backgroundColor:'#f8f8f8'}}>
          <div className={styles.acteNecesare}>
@@ -122,9 +134,9 @@ export default function Home() {
         <footer className={styles.footer}>
           <h3>Powered by Coden Techie</h3>
           <div className={styles.socialM}>
-            <div className={styles.socialIco}><FontAwesomeIcon icon={faFacebook} /></div>
-            <div className={styles.socialIco}><FontAwesomeIcon icon={faTwitter} /></div>
+           <a href='www.facebook.com'> <div className={styles.socialIco}><FontAwesomeIcon icon={faFacebook} /></div></a>
             <div className={styles.socialIco}><FontAwesomeIcon icon={faInstagram} /></div>     
+            <div className={styles.socialIco}><FontAwesomeIcon icon={faWhatsapp} /></div>     
           </div>
         </footer>
     </div>
