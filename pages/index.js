@@ -24,12 +24,12 @@ export default function Home() {
             <div className={styles.headOpenHours}>
               <div className={styles.icoClock}><FontAwesomeIcon icon={faClockFour} /></div>
                <div style={{display:'block', marginLeft:'10px'}}>
-                <div>Luni - Miercuri - Vineri: </div>
-                <div style={{textAlign:'center'}}>11.00 - 19.00 </div>
+                <div>Luni -  Vineri: </div>
+                <div style={{textAlign:'center'}}>8.00 - 20.00 </div>
                </div>
               <div style={{display:'block', marginLeft:'10px'}}>
-               <div>Marti - Joi : </div>
-               <div>8.00 - 16.00</div>
+               <div>Pauza de masa : </div>
+               <div>13.00 - 14.00</div>
               </div>
               <div style={{display:'block', marginLeft:'15px'}}>
                <div>Sambata : </div>
@@ -62,7 +62,7 @@ export default function Home() {
       </main>
 
        <div id='tarife' className={styles.tarife}>
-         <h1>Tarife ITP</h1>
+         <h1>TARIFE DE INSPECTIE TEHNICA SI REVENIRI</h1>
          <table className={styles.table}>
            <tbody>
            <tr>
@@ -70,32 +70,28 @@ export default function Home() {
             <th>Tarif ITP</th>
            </tr>
            <tr>
-             <td>Autoturism taxi, scoala sau pentru inchiriere</td>
-             <td>80 RON</td>
-           </tr>
-           <tr>
-             <td>Autoturisme motorina sau benzina</td>
-             <td>100 RON</td>
-           </tr>
-           <tr>
-             <td>Microbuz, autorulota, utilitare, mixte, specializate, speciale ca masa totala maxim autorizata pana la 3.5 T</td>
+             <td>Autoturisme motorina, benzina, taxi, scoala sau pentru inchiriere</td>
              <td>120 RON</td>
            </tr>
            <tr>
-             <td>Autoturisme 4x4</td>
-             <td>140 RON</td>
+             <td>Autoturisme 4x4, microbuz, benzina cu GPL sau automobile mixte</td>
+             <td>150 RON</td>
+           </tr>
+           <tr>
+             <td>Autorulota, tractir, automobile utilitare, specializate, speciale cu masa totala maxima autorizata pana la 3.5t inclusiv</td>
+             <td>120 RON</td>
            </tr>
            <tr>
              <td>Remorci si rulota fara sistem de franare</td>
              <td>80 RON</td>
            </tr>
            <tr>
-             <td>Remorca, semiremorca si rulota cu sistem de franare avand masa maxima autorizata pana  la 3.5t </td>
-             <td>90 RON</td>
+             <td>Remorca, semiremorca si rulota cu sistem de franare avand masa maxima autorizata pana la 3.5t inclusiv </td>
+             <td>100 RON</td>
            </tr>
            </tbody>
          </table>
-         <p>In cazul in care autovehiculul este respins la prima verificare se percep taxe de reverificare pentru motive de siguranta 20 RON si poluare 10 RON.</p>
+         <p>*NOTA: In cazul in care autovehiculul a fost respins la I.T.P. pentru probleme de siguranta, poluare sau alte defectiuni,<b> la revenire pentru reverificare nu se vor percepe tarife suplimentare</b> .</p>
          </div> 
         <div id='acteNecesare' style={{backgroundColor:'#f8f8f8'}}>
          <div className={styles.acteNecesare}>
