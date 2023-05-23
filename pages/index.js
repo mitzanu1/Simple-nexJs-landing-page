@@ -78,7 +78,7 @@ export default function Home() {
              <td>150 RON</td>
            </tr>
            <tr>
-             <td>Autorulota, tractir, automobile utilitare, specializate, speciale cu masa totala maxima autorizata pana la 3.5t inclusiv</td>
+             <td>Autorulota, tractor, automobile utilitare, specializate, speciale cu masa totala maxima autorizata pana la 3.5t inclusiv</td>
              <td>120 RON</td>
            </tr>
            <tr>
