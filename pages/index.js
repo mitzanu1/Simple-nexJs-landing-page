@@ -1,9 +1,10 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faClockFour, faLocationDot, faCircleUp } from '@fortawesome/free-solid-svg-icons'
 import { faFacebook, faInstagram, faTwitter, faWhatsapp } from '@fortawesome/free-brands-svg-icons'
 import styles from '../styles/main.module.css'
+import Nav from '../components/nav'
+
 export default function Home() {
 
   return (
@@ -13,52 +14,9 @@ export default function Home() {
         <meta name="description" content="Iager ITP" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
-      <main id='acasa' className={styles.main} >
-      <a href='#acasa'>  <div className={styles.upArrow}>
-         <FontAwesomeIcon icon={faCircleUp}/>
-        </div></a>
-        <header className={styles.headerMain}>
-        <div className={styles.header}>
-          <div className={styles.headContact}>
-            <div className={styles.headOpenHours}>
-              <div className={styles.icoClock}><FontAwesomeIcon icon={faClockFour} /></div>
-               <div style={{display:'block', marginLeft:'10px'}}>
-                <div>Luni -  Vineri: </div>
-                <div style={{textAlign:'center'}}>8.00 - 20.00 </div>
-               </div>
-              <div style={{display:'block', marginLeft:'10px'}}>
-               <div>Pauza de masa : </div>
-               <div>13.00 - 14.00</div>
-              </div>
-              <div style={{display:'block', marginLeft:'15px'}}>
-               <div>Sambata : </div>
-               <div>8.00 - 13.00</div>
-              </div>
-            </div>
-            <div className={styles.headAddress}>
-              <div className={styles.icoMap}><FontAwesomeIcon icon={faLocationDot} /></div>
-              <span> Comuna Vama Buzaului, sat Acris, nr. 7A, Brasov</span>
-            </div>
-          </div>
-          
-        </div>
-        <div className={styles.header}>
-          <div className={styles.logo}>
-            <Image src={'/logo.png'} width='300px' height='50px'/>
-          </div>
-          <nav className={styles.nav}>
-            <ul>
-              <li><a href='#tarife'>Tarife</a></li>
-              <li><a href='#acteNecesare'>Acte Necesare</a></li>
-              <li><a href='#contact'>Contact</a></li>
-            </ul>
-          </nav>
-        </div>
-        </header>
-        <div className={styles.hero}>
-
-        </div>
+      <main id='acasa' className={styles.main} >     
+        <Nav />
+        <div className={styles.hero}></div>
       </main>
 
        <div id='tarife' className={styles.tarife}>

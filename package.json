@@ -14,9 +14,16 @@
     "@fortawesome/free-regular-svg-icons": "^6.1.1",
     "@fortawesome/free-solid-svg-icons": "^6.1.1",
     "@fortawesome/react-fontawesome": "^0.1.18",
+    "@tinymce/tinymce-react": "^4.3.0",
+    "bootstrap": "^5.2.3",
+    "html-react-parser": "^3.0.16",
+    "i": "^0.3.7",
+    "mongodb": "^5.5.0",
     "next": "12.1.6",
+    "npm": "^9.6.7",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "tinymce": "^5.10.7"
   },
   "devDependencies": {
     "eslint": "8.18.0",
