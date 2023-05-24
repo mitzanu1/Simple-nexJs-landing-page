@@ -45,7 +45,7 @@ const Nav = () => {
             <li><a href='/#tarife'>Tarife</a></li>
             <li><a href='/#acteNecesare'>Acte Necesare</a></li>
             <li><a href='/#contact'>Contact</a></li>
-            <li><Link href='/e-learning'>E-Learing</Link></li>
+            <li><Link href='/e-learning'>E-Learning</Link></li>
           </ul>
         </nav>
       </div>
