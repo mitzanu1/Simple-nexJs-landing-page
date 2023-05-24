@@ -15,7 +15,7 @@ export default function PostCard({ post }) {
                 body: postId,
             });
             setPublishing(false);
-            return router.push(router.asPath);
+            
         } catch (error) {
             return setPublishing(false);
         }
