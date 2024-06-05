@@ -25,30 +25,27 @@ export default function Home() {
            <tbody>
            <tr>
             <th>Categorie autovehicul</th>
-            <th>Tarif ITP</th>
+            <th>Tarif ITP (RON)</th>
            </tr>
            <tr>
-             <td>Autoturisme motorina, benzina, taxi, scoala sau pentru inchiriere</td>
-             <td>120 RON</td>
+             <td>Remorcă și rulotă fără sistem de frânare, remorcă, semiremorcă si rulotă cu sistem de frânare având masa maximă autorizată până la 3,5 t inclusiv</td>
+             <td>120</td>
            </tr>
            <tr>
-             <td>Autoturisme 4x4, microbuz, benzina cu GPL sau automobile mixte</td>
-             <td>150 RON</td>
+             <td>Autoturisme motorină sau benzină, benzină cu GPL, autoturisme 4x4,  autoturisme taxi, școală sau pentru închiriere, moped, motocicletă, triciclu, cvadriciclu</td>
+             <td>140</td>
            </tr>
            <tr>
-             <td>Autorulota, tractor, automobile utilitare, specializate, speciale cu masa totala maxima autorizata pana la 3.5t inclusiv</td>
-             <td>120 RON</td>
+             <td>Autorulotă, automobile utilitare, specializate, automibile mixte, speciale cu masa totala maxima autorizata pana la 3.5 t inclusiv, tractor rutier</td>
+             <td>170</td>
            </tr>
            <tr>
-             <td>Remorci si rulota fara sistem de franare</td>
-             <td>80 RON</td>
-           </tr>
-           <tr>
-             <td>Remorca, semiremorca si rulota cu sistem de franare avand masa maxima autorizata pana la 3.5t inclusiv </td>
-             <td>100 RON</td>
+             <td>Taxa autovehicule euro 6 pentru diagnoză</td>
+             <td>30</td>
            </tr>
            </tbody>
          </table>
+         <p>Societate neplătitoare de TVA</p>
          <p>*NOTA: In cazul in care autovehiculul a fost respins la I.T.P. pentru probleme de siguranta, poluare sau alte defectiuni,<b> la revenire pentru reverificare nu se vor percepe tarife suplimentare</b> .</p>
          </div> 
         <div id='acteNecesare' style={{backgroundColor:'#f8f8f8'}}>
